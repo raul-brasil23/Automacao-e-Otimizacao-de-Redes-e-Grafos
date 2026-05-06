@@ -11,7 +11,7 @@ Este projeto automatiza essa tomada de decisão através da leitura e processame
 O sistema foi desenvolvido em **C** com forte ênfase em performance, modularização e gestão de memória. 
 
 * **Algoritmo Guloso:** Implementação do Algoritmo de Prim.
-* **Estrutura de Dados Avançada:** Fila de prioridade utilizando **Heap Binário Mínimo** para garantir eficiência $O(E \log V)$ na extração do menor custo.
+* **Estrutura de Dados Avançada:** Fila de prioridade utilizando **Heap Binário Mínimo** para garantir eficiência $O(A. \log V)$ na extração do menor custo.
 * **Modularidade e Interface Opaca:** O código central (`ep1.c`) interage com os grafos através de uma interface genérica, permitindo que a base de dados subjacente mude dinamicamente entre **Lista de Adjacência** ou **Matriz de Adjacência** em tempo de compilação, sem alterar a lógica de negócios.
 * **Pipeline de Validação de Dados:** Antes de qualquer roteamento, os dados de entrada passam por uma esteira de validação crítica, identificando e isolando dados corrompidos (vértices inválidos, auto-laços, arestas paralelas e pesos físicos impossíveis).
 
