@@ -21,17 +21,17 @@ O projeto utiliza diretivas de compilação (`#ifdef`) para alternar a estrutura
 
 **Compilando com Lista de Adjacência:**
 ```bash
-gcc -o roteamento ep1.c -lm
+gcc -o ep1 ep1.c -lm
 ```
 
 **Compilando com Matriz de Adjacência:**
 ```bash
-gcc -DMATRIZ -o roteamento ep1.c -lm
+gcc -DMATRIZ -o ep1 ep1.c -lm
 ```
 
 **Executando a Automação:**
 ```bash
-./roteamento arquivo_entrada.txt arquivo_saida.txt
+./ep1 entrada.txt saida.txt
 ```
 
 ## 🧪 Testes
